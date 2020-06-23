@@ -16,8 +16,8 @@
 			});
 		});
 	</script>
-
-	<style> /*상단*/
+	<style>
+		/*로고*/
 		.header{
 			width: 1200px; height: 50px;
 			margin:0 auto;
@@ -44,8 +44,10 @@
 			width: 45px; height: 2px;
 			background-color: #adadad;
 			position: absolute;bottom:13px;
-			right:67.9%;
+			right:68%;
 		}
+
+		/*메뉴*/
 		.headerone{
 			width: 1200px;
 			margin:0 auto;
@@ -64,7 +66,8 @@
 			padding: 0 35px;
 			color: #333;
 		}
- 
+
+		/*메뉴2*/
 		.headertwo{
 			width: 1200px; 
 			margin:0 auto;
@@ -320,13 +323,13 @@
 		/*6*/
 		.visualFive{
 			_background: #f8f9ff;
-			height: 800px;
+			_height: 800px;
 		}
 		.visualFive .viewFive{
 			width: 1200px;
 			margin:0 auto;
 			position: relative;
-			height: 760px;
+			height: 700px;
 		}
 		.visualFive img.img{
 			position: absolute;
@@ -355,6 +358,8 @@
 		}
 
 		/*footer*/
+
+		/*왼쪽*/
 		.footer{
 			background:#f8f9ff;
 			height: 800px;
@@ -369,11 +374,124 @@
 			position: absolute;top: 150px;
 			width:800px;
 		}
-		.visualFive .visual5Txt h1{
-			font-size:2.5em;
-			margin-bottom: 20px;
-			font-weight: bold;
+		.footer .footerleft h1{
+			margin-bottom: 15px;
+			font-size:3em;
 		}
+		.footerleft .ptag p{
+			margin-bottom: 40px;
+		}
+		.footerleft p{
+			margin-bottom: 3px;
+		}
+
+		/*오른쪽 about*/
+		.footer .footerwrap1{
+			width: 1200px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.footer .footerright{
+			position: absolute;
+			right:370px;
+			top:200px;
+		}
+		.footer .footerright h1{
+			font-size:16px;
+			margin-bottom: 40px;
+		}
+		/*오른쪽 product*/
+		.footer .footerwrap2{
+			width: 1200px;
+			margin:0 auto;
+			position: relative;
+		}
+		.footer .footerright2{
+			position: absolute;
+			right: 170px;
+			top: 200px;
+		}
+		.footer .footerright2 h1{
+			font-size:16px;
+			margin-bottom: 40px;
+		}
+
+		/*오른쪽 company*/
+		.footer .footerwrap3{
+			width: 1200px;
+			margin:0 auto;
+			position: relative;
+		}
+		.footer .footerright3{
+			position: absolute;
+			right:0px;
+			top: 200px;
+		}
+		.footer .footerright3 h1{
+			font-size:16px;
+			margin-bottom: 40px;
+		}
+
+		/*선*/
+		.line{			
+			width: 1200px; height: 2px;
+			margin:0 auto;
+			background: #eee;
+			position: relative;
+			top:410px;
+		}
+
+		/*copyright 왼쪽*/
+		.copywrap{
+			margin:0 auto;
+			position: relative;
+		}
+		.copywrap .copyright{
+			width: 1200px;
+			margin:0 auto;
+			position: relative;
+		}
+		.copyright .left h1{
+			position: absolute;
+			top:420px;
+			font-size:13px;
+			color: #aaa;
+		}
+
+		/*copyright 왼쪽*/
+		.copywrap2{
+			margin:0 auto;
+			position: relative;
+		}
+		.copywrap2 .copyright2{
+			width: 1200px;
+			margin:0 auto;
+			position: relative;
+		}
+		.copyright2 .right h1{
+			position: absolute;
+			top: 420px;
+			font-size:13px;
+			right: 200px;
+			color: #aaa;
+		}
+		.copywrap3{
+			margin:0 auto;
+			position: relative;
+		}
+		.copywrap3 .copyright3{
+			width: 1200px;
+			margin:0 auto;
+			position: relative;
+		}
+		.copyright3 .right2 h1{
+			position: absolute;
+			top: 420px;
+			font-size:13px;
+			right:0;
+			color: #aaa;
+		}
+		
 	</style>
 </head>
 <body>
@@ -385,7 +503,7 @@
 	<header class="headerone">
 		<div class="boxwrap">
 			<div class="box"><a href="#">Home</a></div>
-			<div class="box"><a href="#">How It Wokrs</a></div>
+			<div class="box"><a href="#">How It Works</a></div>
 			<div class="box"><a href="#">Company</a></div>
 			<div class="box"><a href="#">Career</a></div>
 		</div>
@@ -396,6 +514,7 @@
 			<div class="box1"><a href="#">Register</a></div>
 		</div>
 	</header>
+
  	<div class="visual">
 		<ul class="slider">
 			<li> <!-- w100% -->
@@ -450,7 +569,7 @@
 					<img src="images/img03.jpg" alt="" class="img">
 					<div class="visualOneTxt">
 						<h3>The proper guide that helps<br>you to unlock the real potential.</h3>
-						<p>I will tell you how to become a rich. Close the doors.<br>Be fearful when others are greedy. I will tell you how to become a rich.</p>
+						<p>I will tell you how to become a rich. Close the doors.<br>Be fearful when others are greedy. I will tell you how <br>to become a rich.</p>
 						<a href="#" class="btna">Request Demo</a>
 					</div>
 				</div>
@@ -520,17 +639,91 @@
 	<div class="footer">
 		<ul>
 			<li> <!-- w100% -->
-				<div class="footerwrap">
+				<div class="footerwrap1">
 					<div class="footerleft">
 						<h1>chavy</h1>
+						<div class="ptag">
 						<p>Built for every employee, everywhere.</p>
+						</div>		
 						<p>580 oras street</p>
 						<p>lan Itali, Da 354130</p>
-						<p>steam@olution.com</p>
+						<p>steam@olution.com</p>	
 					</div>
 				</div>
 			</li>
 	    </ul>
+
+	    <ul>
+			<li> <!-- w100% -->
+				<div class="footerwrap1">
+					<div class="footerright">
+						<h1>ABOUT</h1>
+						<p>Why Solution<br>What We Do<br>Testimonials</p>
+					</div>
+				</div>
+			</li>
+	    </ul>
+
+	    <ul>
+			<li> <!-- w100% -->
+				<div class="footerwrap2">
+					<div class="footerright2">
+						<h1>PRODUCT</h1>
+						<p>How It Works<br>Features<br>FAQ</p>
+					</div>
+				</div>
+			</li>
+	    </ul>
+
+	    <ul>
+			<li> <!-- w100% -->
+				<div class="footerwrap3">
+					<div class="footerright3">
+						<h1>COMPANY</h1>
+						<p>Team<br>Careers</p>
+					</div>
+				</div>
+			</li>
+	    </ul>
+
+	  	<div class="line"></div>
+
+	  <div class="bottomcopy">
+	  	  <div class="copywrap">
+	  				<ul>
+	  					<li> <!-- w100% -->
+	  						<div class="copyright">
+	  							<div class="left">
+	  								<h1>Copyright (c) 2020. Syed Roni behalf of isketch. All Rights Reserved.</h1>	
+	  							</div>
+	  						</div>
+	  					</li>
+	  			    </ul>
+	  			</div>
+	  	
+	  			<div class="copywrap2">
+	  				<ul>
+	  					<li> <!-- w100% -->
+	  						<div class="copyright2">
+	  							<div class="right">
+	  								<h1>TERMS OF SERVICE</h1>	
+	  							</div>
+	  						</div>
+	  					</li>
+	  			    </ul>
+	  			</div>
+	  	
+	  			<div class="copywrap3">
+	  				<ul>
+	  					<li> <!-- w100% -->
+	  						<div class="copyright3">
+	  							<div class="right2">
+	  								<h1>PRIVACY POLICY</h1>	
+	  							</div>
+	  						</div>
+	  					</li>
+	  			    </ul>
+	  			</div>
+	  </div>
 	</div>
-</body>
 </html>
